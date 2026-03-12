@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экспедиция на Марс | VORTEX</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-fade">
+
+    <header class="main-header">
+        <a href="index.html" class="logo">
+            <img src="images/Logo.png" alt="VORTEX Logo" class="logo-img">
+            <span>VORTEX</span>
+        </a>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="index.html#destinations">Направления</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detail-page">
+        <section class="detail-hero">
+            <div class="detail-text">
+                <span class="subtitle">Красная планета ждет</span>
+                <h1 class="orbitron-text">ЭКСПЕДИЦИЯ: <span>МАРС</span></h1>
+                <p>Станьте частью истории. Девятимесячное путешествие на борту крейсера класса "Орион" с высадкой в кратере Гейла. Исследуйте марсианские каньоны и древние русла рек в составе первой гражданской группы.</p>
+                <a href="#packages" class="btn-main">ВЫБРАТЬ ПАКЕТ</a>
+            </div>
+            <div class="detail-image">
+                <div class="planet-glow mars-glow-big"></div>
+                <img src="images/mars-fly.png" alt="Mars" class="floating-mars">
+            </div>
+        </section>
+
+        <section class="detail-stats">
+            <div class="stat-box glass">
+                <h4>ДЛИТЕЛЬНОСТЬ</h4>
+                <p>9 Месяцев</p>
+            </div>
+            <div class="stat-box glass">
+                <h4>РАССТОЯНИЕ</h4>
+                <p>225 млн км</p>
+            </div>
+            <div class="stat-box glass">
+                <h4>ГРАВИТАЦИЯ</h4>
+                <p>38% от Земной</p>
+            </div>
+        </section>
+
+        <section id="packages" class="pricing-section">
+            <div class="container">
+                <h2 class="section-title orbitron-text" style="text-align: center; margin-bottom: 50px;">УРОВНИ ПОДГОТОВКИ</h2>
+                <div class="pricing-grid">
+                    
+                    <div class="price-card glass">
+                        <div class="price-header">
+                            <span class="package-name orbitron-text">Первооткрыватель</span>
+                            <div class="price-value">$500,000</div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Перелет в оба конца</li>
+                            <li><i class="fas fa-check"></i> Проживание в общем модуле</li>
+                            <li><i class="fas fa-check"></i> Базовый рацион питания</li>
+                            <li class="disabled"><i class="fas fa-times"></i> Выход в открытый космос</li>
+                        </ul>
+                        <a href="booking.html?package=pioneer" class="btn-price">ВЫБРАТЬ</a>
+                    </div>
+
+                    <div class="price-card glass featured">
+                        <div class="featured-badge">РЕКОМЕНДУЕМ</div>
+                        <div class="price-header">
+                            <span class="package-name orbitron-text">Исследователь</span>
+                            <div class="price-value">$850,000</div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> Все из "Первооткрывателя"</li>
+                            <li><i class="fas fa-check"></i> Личная каюта класса Standard</li>
+                            <li><i class="fas fa-check"></i> 2 выхода на поверхность</li>
+                            <li><i class="fas fa-check"></i> Управление ровером</li>
+                        </ul>
+                        <a href="booking.html?package=explorer" class="btn-price">ВЫБРАТЬ</a>
+                    </div>
+
+                    <div class="price-card glass">
+                        <div class="price-header">
+                            <span class="package-name orbitron-text">Архитектор</span>
+                            <div class="price-value">$1,200,000</div>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fas fa-check"></i> VIP-перелет (Private Suite)</li>
+                            <li><i class="fas fa-check"></i> Неограниченные вылазки</li>
+                            <li><i class="fas fa-check"></i> Обучение пилотированию</li>
+                            <li><i class="fas fa-check"></i> Увековечивание имени на базе</li>
+                        </ul>
+                        <a href="booking.html?package=architect" class="btn-price">ВЫБРАТЬ</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col footer-mission-info">
+                <div class="footer-heading-fx">О МИССИИ VORTEX</div>
+                <p class="mission-desc">Исследование глубокого космоса и создание частных маршрутов на Луну и Марс. Мы расширяем горизонты человечества.</p>
+            </div>
+            
+            <div class="footer-col footer-links">
+                <div class="footer-sub-heading">Навигация</div>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="booking.html">Бронирование</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col footer-links">
+                <div class="footer-sub-heading">Направления</div>
+                <ul>
+                    <li><a href="mars.html">Экспедиция Марс</a></li>
+                    <li><a href="moon.html">Курорт Луна</a></li>
+                    <li><a href="index.html#advantages">Технологии</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col footer-graphic-placeholder">
+                <svg viewBox="0 0 400 300" class="borjomi-style-graphic">
+                    <path d="M 50 150 C 150 50, 250 50, 350 150" stroke="#7d2ae8" fill="none" stroke-width="2"/>
+                    <path d="M 50 150 C 150 250, 250 250, 350 150" stroke="#7d2ae8" fill="none" stroke-width="2"/>
+                    <path d="M 200 0 C 100 100, 100 200, 200 300" stroke="#7d2ae8" fill="none" stroke-width="2"/>
+                    <path d="M 200 0 C 300 100, 300 200, 200 300" stroke="#7d2ae8" fill="none" stroke-width="2"/>
+                </svg>
+            </div>
+
+            <div class="footer-bottom-left">
+                <div class="footer-logo orbitron-text">VORTEX</div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom-right">
+                <div class="footer-email-box">
+                    <label for="email-subscribe">Оставайтесь на связи с ЦУП</label>
+                    <div class="subscribe-input-wrapper">
+                        <input type="email" id="email-subscribe" placeholder="Ваш e-mail">
+                        <button class="subscribe-btn">ПОДПИСАТЬСЯ →</button>
+                    </div>
+                </div>
+                <a href="#" class="back-to-top-btn"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 VORTEX Horizons. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
